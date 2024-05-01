@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
-    color: white;
-    background: #000;
-    border-color: #3b3b3b;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 30px 0 20px 0;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(public/hero-bg.png) center center / cover no-repeat;
+}
+
+.ourBest {
+    background: url(public/best-bg.png) center center / cover no-repeat;
+}
+
+.white-logo {
+    background: url(public/white-logo.svg) center center no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+.black-logo {
+    background: url(public/black-logo.svg) center center no-repeat;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
 }

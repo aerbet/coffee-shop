@@ -18,9 +18,10 @@ body {
 
 .header {
     background: url(public/hero-bg.png) center center / cover no-repeat;
+    height: 840px;
 }
 
-.ourBest {
+.our {
     background: url(public/best-bg.png) center center / cover no-repeat;
 }
 
@@ -35,4 +36,8 @@ body {
     display: inline-block;
     width: 35px;
     height: 35px;
+}
+
+.card__img {
+    height: 134px;
 }

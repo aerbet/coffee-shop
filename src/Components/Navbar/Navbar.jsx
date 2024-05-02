@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Navbar = ({ textColor, logoColor }) => {
   return (
     <nav className="navbar">
-      <ul className={`flex jus items-center mt-4 text-${textColor}`}>
+      <ul className={`flex jus items-center text-${textColor}`}>
         <a href="#" className="text-xs cursor-pointer">
           <span className={`${logoColor}-logo`}></span>
           Coffee House

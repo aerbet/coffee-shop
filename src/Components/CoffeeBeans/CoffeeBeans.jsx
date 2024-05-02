@@ -13,7 +13,7 @@ const CoffeeBeans = ({ coffeeSvg, borderColor }) => {
 };
 
 CoffeeBeans.propTypes = {
-  coffeeSvg: PropTypes,
+  coffeeSvg: PropTypes.string,
   borderColor: PropTypes.string
 }
 

@@ -1,8 +1,9 @@
 import {Route, Routes} from "react-router-dom";
 
-import OurCoffee from "../pages/OurPage/OurCoffee.jsx";
-import ForYour from "../pages/ForPage/ForYour.jsx";
+import OurPage from "../pages/OurPage/OurPage.jsx";
+import ForPage from "../pages/ForPage/ForPage.jsx";
 import App from "../Components/App/App.jsx";
+import CoffeePage from "../pages/CoffeePage/CoffeePage.jsx";
 
 
 const AppRoutes = () => {
@@ -14,8 +15,12 @@ const AppRoutes = () => {
         </Route>
         
         <Route>
-          <Route path="/our" element={<OurCoffee />}/>
-          <Route path="/for" element={<ForYour />}/>
+          <Route path="/our" element={<OurPage />}/>
+          <Route path="/for" element={<ForPage />}/>
+        </Route>
+        
+        <Route>
+          <Route path="/coffee" element={<CoffeePage />}/>
         </Route>
       </Routes>
     </>

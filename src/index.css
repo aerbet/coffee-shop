@@ -21,6 +21,20 @@ body {
     height: 840px;
 }
 
+.ourHeader {
+    background: url(public/our-coffee-bg.png) center center / cover no-repeat;
+    height: 260px;
+}
+
+.forHeader {
+    background: url(public/foryp-bg.png) center center / cover no-repeat;
+    height: 260px;
+}
+
+.heroHide {
+    display: none;
+}
+
 .our {
     background: url(public/best-bg.png) center center / cover no-repeat;
 }
@@ -40,4 +54,39 @@ body {
 
 .card__img {
     height: 134px;
+}
+
+.aboutBeans {
+    display: none;
+}
+
+.aboutDisplay {
+    display: flex;
+}
+
+.aboutImg {
+    height: 358px;
+}
+
+.aboutHide {
+    display: none;
+}
+
+.aboutSpan {
+    width: 394px;
+    display: block;
+}
+
+.aboutSpanHide {
+    display: none;
+}
+
+.aboutCoffeeHide {
+    display: none;
+}
+
+.aboutCoffee {
+    width: 394px;
+    display: block;
+    text-align: start;
 }

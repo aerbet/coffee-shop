@@ -1,5 +1,5 @@
 
-const SearchPanel = () => {
+const SearchPanel = ( ) => {
   return (
     <div>
       <label>

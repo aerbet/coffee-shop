@@ -1,15 +1,18 @@
+import PropTypes from "prop-types";
 
-const CoffeeFilter = () => {
+const CoffeeFilter = (props) => {
   const buttonsData = [
-    {name: 'brazil', label: 'Brazil'},
-    {name: 'kenya', label: 'Kenya'},
-    {name: 'columbia', label: 'Columbia'},
+    {name: 'all', label: 'All'},
+    {name: 'venezia', label: 'Venezia'},
+    {name: 'roma', label: 'Roma'},
+    {name: 'napoli', label: 'Napoli'},
   ];
   
   const buttons = buttonsData.map(({name, label}) => {
     
     return (
-      <button className={`relative flex h-[40px] w-36 items-center
+      <button onClick={() => props.onCountryFilterSelect(name)}
+              className={`relative flex h-[40px] w-36 items-center
       justify-center overflow-hidden bg-gray-800 text-white
       shadow-2xl transition-all before:absolute before:h-0 before:w-0
       before:rounded-full before:bg-orange-600 before:duration-500
@@ -18,7 +21,7 @@ const CoffeeFilter = () => {
       sm:h-[30px]w-20`}
               key={name}
               type="button">
-        {label}
+        <span className="relative z-10">{label}</span>
       </button>
     )
   })
@@ -29,5 +32,10 @@ const CoffeeFilter = () => {
     </div>
   );
 };
+
+CoffeeFilter.propTypes = {
+  onCountryFilterSelect: PropTypes.func
+}
+
 
 export default CoffeeFilter;

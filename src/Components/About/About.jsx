@@ -45,7 +45,7 @@ const About = ({ aboutBeans, aboutImg, imgName, aboutSpan, aboutSpanHide, aboutC
               is song that held help face.
             </span>
             <span className={`${aboutCoffee} aboutCoffeeHide w-2/4 flex justify-start mt-8 mb-24`}>
-              <b><span className="text-xl">Country:</span></b> Brasil
+              <b><span className="text-xl">Country:</span></b> Italy
               <br/>
               <br/>
               <b><span className="text-xl">Description:</span></b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

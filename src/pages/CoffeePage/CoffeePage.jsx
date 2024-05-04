@@ -1,7 +1,6 @@
 import Header from "../../Components/Header/Header.jsx";
 import About from "../../Components/About/About.jsx";
 import coffeeImg from "../../../public/aromistico-about.jpg";
-import {Link} from "react-router-dom";
 
 
 const CoffeePage = () => {
@@ -16,7 +15,6 @@ const CoffeePage = () => {
         imgName={"mr-20"}
         aboutSpanHide={"aboutSpanHide"}
         aboutCoffee={"aboutCoffee"}/>
-      
       
     </div>
   );
